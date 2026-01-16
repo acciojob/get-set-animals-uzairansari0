@@ -13,19 +13,19 @@ class Animal {
 
 class Dog extends Animal {
 	constructor(species){
-		 super(species);
+		 super("Car");
 	}
-	purr(){
-		console.log('purr')
-	}
+	bark(){
+		console.log('woof')
+	}	
 }
 
 class Cat extends Animal {
 	constructor(species){
-		 super(species);
+		 super("Dog");
 	}
-	bark(){
-		console.log('woof')
+	purr(){
+		console.log('purr')
 	}
 }
 
